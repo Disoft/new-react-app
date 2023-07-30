@@ -1,0 +1,7 @@
+[
+  { "id": 1000, "name": "John Doe", "role": "Software Engineer" },
+  { "id": 2001, "name": "Jane Smith1", "role": "Product Manager 1" },
+  { "id": 2002, "name": "Jane Smith2", "role": "Product Manager 2" },
+  { "id": 2003, "name": "Jane Smith3", "role": "Product Manager 3" },
+  { "id": 2004, "name": "Jane Smith4", "role": "Product Manager 4" }
+]

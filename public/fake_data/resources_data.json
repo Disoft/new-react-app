@@ -1,0 +1,88 @@
+{	
+"resources":[
+   { 
+	  "resource_id":1001,
+	  "person":{
+		  "name": "John Doe",
+		  "age": 30
+	  },
+    "occupation": "Software Engineer III",
+    "skills": [
+      {
+		  "id_skill":100,
+		  "id_proficiency": 200,
+          "experience_years": 5
+      },
+      {
+          "id_skill":101,
+		  "id_proficiency": 202,
+          "experience_years": 4
+      }
+    ]
+  },
+  {
+	  "resource_id":1002,
+	  "person":{
+		  "name": "Jorge Mostajo",
+		  "age": 36
+	  },
+    "occupation": "Software Engineer Senior",
+    "skills": [
+      {
+		  "id_skill":110,
+		  "id_proficiency": 500,
+          "experience_years": 7
+      },
+      {
+          "id_skill":111,
+		  "id_proficiency": 300,
+          "experience_years": 4
+      }
+    ]
+  },
+  {
+	  "resource_id":1004,
+	  "person":{
+		  "name": "John Doe1",
+		  "age": 31
+	  },
+    "occupation": "Software Engineer II",
+    "skills": [
+      {
+		  "id_skill":101,
+		  "id_proficiency": 200,
+          "experience_years": 5
+      },
+      {
+          "id_skill":102,
+		  "id_proficiency": 100,
+          "experience_years": 3
+      }
+    ]
+  }
+  ],
+  
+"teams":[
+   {
+	   "name":"TeamREACT",
+	   "resources":[
+	   {"resource_id": 1001, "role_id": 301},
+	   {"resource_id": 1002, "role_id": 302},
+	   {"resource_id": 1004, "role_id": 303}
+	   ]
+   },
+   {
+	   "name":"TeamNET",
+	   "resources":[
+	   {"resource_id": 1001, "role_id": 301},
+	   {"resource_id": 1002, "role_id": 302}
+	   ]
+   },
+   {
+	   "name":"TeamLN20",
+	   "resources":[
+	   {"resource_id": 1001, "role_id": 301},
+	   {"resource_id": 1004, "role_id": 303}
+	   ]
+   }]
+}
